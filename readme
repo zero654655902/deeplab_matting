@@ -1,0 +1,26 @@
+生成标签图
+deeplab/datasets下执行remove_gt_colormap.py是将彩色的标签图生成标签从0,1...的图， 注意标签图片要是mode=P
+
+生成tfrecord
+deeplab/datasets下执行build_matting.py是将图片处理成tfrecord文件， 文件路径自己修改
+
+
+注册数据集
+deeplab/datasets下segmentation_dataset.py 类别数目和样本数目修改
+
+
+颜色表自定义
+deeplab/utils中get_dataset_colormap 颜色表修改，类别对应的颜色
+
+
+训练(./sh第一次执行需修改权限哈)
+deeplab下执行./train_matting.sh
+
+测试模型算moiu
+deeplab下执行./eval_matting.sh
+
+测试得到语义分割结果
+deeplab下执行./vis_matting.sh
+
+
+
