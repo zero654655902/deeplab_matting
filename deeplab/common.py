@@ -108,7 +108,7 @@ LABEL = 'label'
 ORIGINAL_IMAGE = 'original_image'
 
 # Test set name.
-TEST_SET = 'test'
+TEST_SET = 'test1'
 
 
 class ModelOptions(
