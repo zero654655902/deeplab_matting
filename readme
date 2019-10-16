@@ -1,3 +1,8 @@
+数据百度网盘链接
+链接：https://pan.baidu.com/s/1IIMlXMQQmRPKEHT73-wj2w
+提取码：a09x
+
+
 生成标签图
 deeplab/datasets下执行remove_gt_colormap.py是将彩色的标签图生成标签从0,1...的图， 注意标签图片要是mode=P
 
