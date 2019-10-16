@@ -37,7 +37,7 @@ WORK_DIR="${CURRENT_DIR}/deeplab"
 DATA_FOLDER="${WORK_DIR}/datasets"
 TRAIN_DIR="${DATA_FOLDER}/matting/train"
 VIS_DIR="${DATA_FOLDER}/matting/vis"
-DATASET=""${DATA_FOLDER}/matting/tfrecord"
+DATASET="${DATA_FOLDER}/matting/tfrecord"
 mkdir -p "${VIS_DIR}"
 
 
