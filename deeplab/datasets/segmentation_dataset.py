@@ -99,9 +99,9 @@ _PASCAL_VOC_SEG_INFORMATION = DatasetDescriptor(
 
 _PASCAL_VOC_SEG_MATTING_INFORMATION= DatasetDescriptor(
     splits_to_sizes={
-        'train': 532,
-        'test': 178,
-        'val': 178,
+        'train': 1747,
+        'test': 583,
+        'val': 583,
     },
     num_classes=2,
     ignore_label=255,
